@@ -14,10 +14,14 @@ public final class ItemUpdaterFactory {
 
     private static final Set<String> LEGENDARY_ITEMS = setOf("B-DAWG Keychain");
 
+    private static final Set<String> SMELLY_ITEMS =
+            setOf("Duplicate Code", "Long Methods", "Ugly Variable Names");
+
     private static final ItemUpdater NORMAL_ITEM = new NormalItemUpdater();
     private static final ItemUpdater GOOD_WINE_ITEM = new GoodWineUpdater();
     private static final ItemUpdater BACKSTAGE_PASS = new BackstagePassUpdater();
     private static final ItemUpdater LEGENDARY_ITEM = new LegendaryItemUpdater();
+    private static final ItemUpdater SMELLY_ITEM = new SmellyItemUpdater();
 
     private ItemUpdaterFactory() {
     }
@@ -32,6 +36,9 @@ public final class ItemUpdaterFactory {
         }
         if (name.startsWith(BACKSTAGE_PASS_PREFIX)) {
             return BACKSTAGE_PASS;
+        }
+        if (SMELLY_ITEMS.contains(name)) {
+            return SMELLY_ITEM;
         }
         return NORMAL_ITEM;
     }
