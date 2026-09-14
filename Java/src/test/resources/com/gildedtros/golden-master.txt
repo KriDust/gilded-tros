@@ -1,0 +1,903 @@
+AXXES CODE KATA - GILDED TROS / golden master
+one updateQuality() applied to each item
+before  ->  after   (name, sellIn, quality)
+
+-------- Ring of Cleansening Code --------
+Ring of Cleansening Code, -5, 0  ->  Ring of Cleansening Code, -6, 0
+Ring of Cleansening Code, -4, 0  ->  Ring of Cleansening Code, -5, 0
+Ring of Cleansening Code, -3, 0  ->  Ring of Cleansening Code, -4, 0
+Ring of Cleansening Code, -2, 0  ->  Ring of Cleansening Code, -3, 0
+Ring of Cleansening Code, -1, 0  ->  Ring of Cleansening Code, -2, 0
+Ring of Cleansening Code, 0, 0  ->  Ring of Cleansening Code, -1, 0
+Ring of Cleansening Code, 1, 0  ->  Ring of Cleansening Code, 0, 0
+Ring of Cleansening Code, 2, 0  ->  Ring of Cleansening Code, 1, 0
+Ring of Cleansening Code, 3, 0  ->  Ring of Cleansening Code, 2, 0
+Ring of Cleansening Code, 4, 0  ->  Ring of Cleansening Code, 3, 0
+Ring of Cleansening Code, 5, 0  ->  Ring of Cleansening Code, 4, 0
+Ring of Cleansening Code, 6, 0  ->  Ring of Cleansening Code, 5, 0
+Ring of Cleansening Code, 7, 0  ->  Ring of Cleansening Code, 6, 0
+Ring of Cleansening Code, 8, 0  ->  Ring of Cleansening Code, 7, 0
+Ring of Cleansening Code, 9, 0  ->  Ring of Cleansening Code, 8, 0
+Ring of Cleansening Code, 10, 0  ->  Ring of Cleansening Code, 9, 0
+Ring of Cleansening Code, 11, 0  ->  Ring of Cleansening Code, 10, 0
+Ring of Cleansening Code, 12, 0  ->  Ring of Cleansening Code, 11, 0
+Ring of Cleansening Code, 13, 0  ->  Ring of Cleansening Code, 12, 0
+Ring of Cleansening Code, 14, 0  ->  Ring of Cleansening Code, 13, 0
+Ring of Cleansening Code, 15, 0  ->  Ring of Cleansening Code, 14, 0
+Ring of Cleansening Code, -5, 1  ->  Ring of Cleansening Code, -6, 0
+Ring of Cleansening Code, -4, 1  ->  Ring of Cleansening Code, -5, 0
+Ring of Cleansening Code, -3, 1  ->  Ring of Cleansening Code, -4, 0
+Ring of Cleansening Code, -2, 1  ->  Ring of Cleansening Code, -3, 0
+Ring of Cleansening Code, -1, 1  ->  Ring of Cleansening Code, -2, 0
+Ring of Cleansening Code, 0, 1  ->  Ring of Cleansening Code, -1, 0
+Ring of Cleansening Code, 1, 1  ->  Ring of Cleansening Code, 0, 0
+Ring of Cleansening Code, 2, 1  ->  Ring of Cleansening Code, 1, 0
+Ring of Cleansening Code, 3, 1  ->  Ring of Cleansening Code, 2, 0
+Ring of Cleansening Code, 4, 1  ->  Ring of Cleansening Code, 3, 0
+Ring of Cleansening Code, 5, 1  ->  Ring of Cleansening Code, 4, 0
+Ring of Cleansening Code, 6, 1  ->  Ring of Cleansening Code, 5, 0
+Ring of Cleansening Code, 7, 1  ->  Ring of Cleansening Code, 6, 0
+Ring of Cleansening Code, 8, 1  ->  Ring of Cleansening Code, 7, 0
+Ring of Cleansening Code, 9, 1  ->  Ring of Cleansening Code, 8, 0
+Ring of Cleansening Code, 10, 1  ->  Ring of Cleansening Code, 9, 0
+Ring of Cleansening Code, 11, 1  ->  Ring of Cleansening Code, 10, 0
+Ring of Cleansening Code, 12, 1  ->  Ring of Cleansening Code, 11, 0
+Ring of Cleansening Code, 13, 1  ->  Ring of Cleansening Code, 12, 0
+Ring of Cleansening Code, 14, 1  ->  Ring of Cleansening Code, 13, 0
+Ring of Cleansening Code, 15, 1  ->  Ring of Cleansening Code, 14, 0
+Ring of Cleansening Code, -5, 2  ->  Ring of Cleansening Code, -6, 0
+Ring of Cleansening Code, -4, 2  ->  Ring of Cleansening Code, -5, 0
+Ring of Cleansening Code, -3, 2  ->  Ring of Cleansening Code, -4, 0
+Ring of Cleansening Code, -2, 2  ->  Ring of Cleansening Code, -3, 0
+Ring of Cleansening Code, -1, 2  ->  Ring of Cleansening Code, -2, 0
+Ring of Cleansening Code, 0, 2  ->  Ring of Cleansening Code, -1, 0
+Ring of Cleansening Code, 1, 2  ->  Ring of Cleansening Code, 0, 1
+Ring of Cleansening Code, 2, 2  ->  Ring of Cleansening Code, 1, 1
+Ring of Cleansening Code, 3, 2  ->  Ring of Cleansening Code, 2, 1
+Ring of Cleansening Code, 4, 2  ->  Ring of Cleansening Code, 3, 1
+Ring of Cleansening Code, 5, 2  ->  Ring of Cleansening Code, 4, 1
+Ring of Cleansening Code, 6, 2  ->  Ring of Cleansening Code, 5, 1
+Ring of Cleansening Code, 7, 2  ->  Ring of Cleansening Code, 6, 1
+Ring of Cleansening Code, 8, 2  ->  Ring of Cleansening Code, 7, 1
+Ring of Cleansening Code, 9, 2  ->  Ring of Cleansening Code, 8, 1
+Ring of Cleansening Code, 10, 2  ->  Ring of Cleansening Code, 9, 1
+Ring of Cleansening Code, 11, 2  ->  Ring of Cleansening Code, 10, 1
+Ring of Cleansening Code, 12, 2  ->  Ring of Cleansening Code, 11, 1
+Ring of Cleansening Code, 13, 2  ->  Ring of Cleansening Code, 12, 1
+Ring of Cleansening Code, 14, 2  ->  Ring of Cleansening Code, 13, 1
+Ring of Cleansening Code, 15, 2  ->  Ring of Cleansening Code, 14, 1
+Ring of Cleansening Code, -5, 49  ->  Ring of Cleansening Code, -6, 47
+Ring of Cleansening Code, -4, 49  ->  Ring of Cleansening Code, -5, 47
+Ring of Cleansening Code, -3, 49  ->  Ring of Cleansening Code, -4, 47
+Ring of Cleansening Code, -2, 49  ->  Ring of Cleansening Code, -3, 47
+Ring of Cleansening Code, -1, 49  ->  Ring of Cleansening Code, -2, 47
+Ring of Cleansening Code, 0, 49  ->  Ring of Cleansening Code, -1, 47
+Ring of Cleansening Code, 1, 49  ->  Ring of Cleansening Code, 0, 48
+Ring of Cleansening Code, 2, 49  ->  Ring of Cleansening Code, 1, 48
+Ring of Cleansening Code, 3, 49  ->  Ring of Cleansening Code, 2, 48
+Ring of Cleansening Code, 4, 49  ->  Ring of Cleansening Code, 3, 48
+Ring of Cleansening Code, 5, 49  ->  Ring of Cleansening Code, 4, 48
+Ring of Cleansening Code, 6, 49  ->  Ring of Cleansening Code, 5, 48
+Ring of Cleansening Code, 7, 49  ->  Ring of Cleansening Code, 6, 48
+Ring of Cleansening Code, 8, 49  ->  Ring of Cleansening Code, 7, 48
+Ring of Cleansening Code, 9, 49  ->  Ring of Cleansening Code, 8, 48
+Ring of Cleansening Code, 10, 49  ->  Ring of Cleansening Code, 9, 48
+Ring of Cleansening Code, 11, 49  ->  Ring of Cleansening Code, 10, 48
+Ring of Cleansening Code, 12, 49  ->  Ring of Cleansening Code, 11, 48
+Ring of Cleansening Code, 13, 49  ->  Ring of Cleansening Code, 12, 48
+Ring of Cleansening Code, 14, 49  ->  Ring of Cleansening Code, 13, 48
+Ring of Cleansening Code, 15, 49  ->  Ring of Cleansening Code, 14, 48
+Ring of Cleansening Code, -5, 50  ->  Ring of Cleansening Code, -6, 48
+Ring of Cleansening Code, -4, 50  ->  Ring of Cleansening Code, -5, 48
+Ring of Cleansening Code, -3, 50  ->  Ring of Cleansening Code, -4, 48
+Ring of Cleansening Code, -2, 50  ->  Ring of Cleansening Code, -3, 48
+Ring of Cleansening Code, -1, 50  ->  Ring of Cleansening Code, -2, 48
+Ring of Cleansening Code, 0, 50  ->  Ring of Cleansening Code, -1, 48
+Ring of Cleansening Code, 1, 50  ->  Ring of Cleansening Code, 0, 49
+Ring of Cleansening Code, 2, 50  ->  Ring of Cleansening Code, 1, 49
+Ring of Cleansening Code, 3, 50  ->  Ring of Cleansening Code, 2, 49
+Ring of Cleansening Code, 4, 50  ->  Ring of Cleansening Code, 3, 49
+Ring of Cleansening Code, 5, 50  ->  Ring of Cleansening Code, 4, 49
+Ring of Cleansening Code, 6, 50  ->  Ring of Cleansening Code, 5, 49
+Ring of Cleansening Code, 7, 50  ->  Ring of Cleansening Code, 6, 49
+Ring of Cleansening Code, 8, 50  ->  Ring of Cleansening Code, 7, 49
+Ring of Cleansening Code, 9, 50  ->  Ring of Cleansening Code, 8, 49
+Ring of Cleansening Code, 10, 50  ->  Ring of Cleansening Code, 9, 49
+Ring of Cleansening Code, 11, 50  ->  Ring of Cleansening Code, 10, 49
+Ring of Cleansening Code, 12, 50  ->  Ring of Cleansening Code, 11, 49
+Ring of Cleansening Code, 13, 50  ->  Ring of Cleansening Code, 12, 49
+Ring of Cleansening Code, 14, 50  ->  Ring of Cleansening Code, 13, 49
+Ring of Cleansening Code, 15, 50  ->  Ring of Cleansening Code, 14, 49
+
+-------- Elixir of the SOLID --------
+Elixir of the SOLID, -5, 0  ->  Elixir of the SOLID, -6, 0
+Elixir of the SOLID, -4, 0  ->  Elixir of the SOLID, -5, 0
+Elixir of the SOLID, -3, 0  ->  Elixir of the SOLID, -4, 0
+Elixir of the SOLID, -2, 0  ->  Elixir of the SOLID, -3, 0
+Elixir of the SOLID, -1, 0  ->  Elixir of the SOLID, -2, 0
+Elixir of the SOLID, 0, 0  ->  Elixir of the SOLID, -1, 0
+Elixir of the SOLID, 1, 0  ->  Elixir of the SOLID, 0, 0
+Elixir of the SOLID, 2, 0  ->  Elixir of the SOLID, 1, 0
+Elixir of the SOLID, 3, 0  ->  Elixir of the SOLID, 2, 0
+Elixir of the SOLID, 4, 0  ->  Elixir of the SOLID, 3, 0
+Elixir of the SOLID, 5, 0  ->  Elixir of the SOLID, 4, 0
+Elixir of the SOLID, 6, 0  ->  Elixir of the SOLID, 5, 0
+Elixir of the SOLID, 7, 0  ->  Elixir of the SOLID, 6, 0
+Elixir of the SOLID, 8, 0  ->  Elixir of the SOLID, 7, 0
+Elixir of the SOLID, 9, 0  ->  Elixir of the SOLID, 8, 0
+Elixir of the SOLID, 10, 0  ->  Elixir of the SOLID, 9, 0
+Elixir of the SOLID, 11, 0  ->  Elixir of the SOLID, 10, 0
+Elixir of the SOLID, 12, 0  ->  Elixir of the SOLID, 11, 0
+Elixir of the SOLID, 13, 0  ->  Elixir of the SOLID, 12, 0
+Elixir of the SOLID, 14, 0  ->  Elixir of the SOLID, 13, 0
+Elixir of the SOLID, 15, 0  ->  Elixir of the SOLID, 14, 0
+Elixir of the SOLID, -5, 1  ->  Elixir of the SOLID, -6, 0
+Elixir of the SOLID, -4, 1  ->  Elixir of the SOLID, -5, 0
+Elixir of the SOLID, -3, 1  ->  Elixir of the SOLID, -4, 0
+Elixir of the SOLID, -2, 1  ->  Elixir of the SOLID, -3, 0
+Elixir of the SOLID, -1, 1  ->  Elixir of the SOLID, -2, 0
+Elixir of the SOLID, 0, 1  ->  Elixir of the SOLID, -1, 0
+Elixir of the SOLID, 1, 1  ->  Elixir of the SOLID, 0, 0
+Elixir of the SOLID, 2, 1  ->  Elixir of the SOLID, 1, 0
+Elixir of the SOLID, 3, 1  ->  Elixir of the SOLID, 2, 0
+Elixir of the SOLID, 4, 1  ->  Elixir of the SOLID, 3, 0
+Elixir of the SOLID, 5, 1  ->  Elixir of the SOLID, 4, 0
+Elixir of the SOLID, 6, 1  ->  Elixir of the SOLID, 5, 0
+Elixir of the SOLID, 7, 1  ->  Elixir of the SOLID, 6, 0
+Elixir of the SOLID, 8, 1  ->  Elixir of the SOLID, 7, 0
+Elixir of the SOLID, 9, 1  ->  Elixir of the SOLID, 8, 0
+Elixir of the SOLID, 10, 1  ->  Elixir of the SOLID, 9, 0
+Elixir of the SOLID, 11, 1  ->  Elixir of the SOLID, 10, 0
+Elixir of the SOLID, 12, 1  ->  Elixir of the SOLID, 11, 0
+Elixir of the SOLID, 13, 1  ->  Elixir of the SOLID, 12, 0
+Elixir of the SOLID, 14, 1  ->  Elixir of the SOLID, 13, 0
+Elixir of the SOLID, 15, 1  ->  Elixir of the SOLID, 14, 0
+Elixir of the SOLID, -5, 2  ->  Elixir of the SOLID, -6, 0
+Elixir of the SOLID, -4, 2  ->  Elixir of the SOLID, -5, 0
+Elixir of the SOLID, -3, 2  ->  Elixir of the SOLID, -4, 0
+Elixir of the SOLID, -2, 2  ->  Elixir of the SOLID, -3, 0
+Elixir of the SOLID, -1, 2  ->  Elixir of the SOLID, -2, 0
+Elixir of the SOLID, 0, 2  ->  Elixir of the SOLID, -1, 0
+Elixir of the SOLID, 1, 2  ->  Elixir of the SOLID, 0, 1
+Elixir of the SOLID, 2, 2  ->  Elixir of the SOLID, 1, 1
+Elixir of the SOLID, 3, 2  ->  Elixir of the SOLID, 2, 1
+Elixir of the SOLID, 4, 2  ->  Elixir of the SOLID, 3, 1
+Elixir of the SOLID, 5, 2  ->  Elixir of the SOLID, 4, 1
+Elixir of the SOLID, 6, 2  ->  Elixir of the SOLID, 5, 1
+Elixir of the SOLID, 7, 2  ->  Elixir of the SOLID, 6, 1
+Elixir of the SOLID, 8, 2  ->  Elixir of the SOLID, 7, 1
+Elixir of the SOLID, 9, 2  ->  Elixir of the SOLID, 8, 1
+Elixir of the SOLID, 10, 2  ->  Elixir of the SOLID, 9, 1
+Elixir of the SOLID, 11, 2  ->  Elixir of the SOLID, 10, 1
+Elixir of the SOLID, 12, 2  ->  Elixir of the SOLID, 11, 1
+Elixir of the SOLID, 13, 2  ->  Elixir of the SOLID, 12, 1
+Elixir of the SOLID, 14, 2  ->  Elixir of the SOLID, 13, 1
+Elixir of the SOLID, 15, 2  ->  Elixir of the SOLID, 14, 1
+Elixir of the SOLID, -5, 49  ->  Elixir of the SOLID, -6, 47
+Elixir of the SOLID, -4, 49  ->  Elixir of the SOLID, -5, 47
+Elixir of the SOLID, -3, 49  ->  Elixir of the SOLID, -4, 47
+Elixir of the SOLID, -2, 49  ->  Elixir of the SOLID, -3, 47
+Elixir of the SOLID, -1, 49  ->  Elixir of the SOLID, -2, 47
+Elixir of the SOLID, 0, 49  ->  Elixir of the SOLID, -1, 47
+Elixir of the SOLID, 1, 49  ->  Elixir of the SOLID, 0, 48
+Elixir of the SOLID, 2, 49  ->  Elixir of the SOLID, 1, 48
+Elixir of the SOLID, 3, 49  ->  Elixir of the SOLID, 2, 48
+Elixir of the SOLID, 4, 49  ->  Elixir of the SOLID, 3, 48
+Elixir of the SOLID, 5, 49  ->  Elixir of the SOLID, 4, 48
+Elixir of the SOLID, 6, 49  ->  Elixir of the SOLID, 5, 48
+Elixir of the SOLID, 7, 49  ->  Elixir of the SOLID, 6, 48
+Elixir of the SOLID, 8, 49  ->  Elixir of the SOLID, 7, 48
+Elixir of the SOLID, 9, 49  ->  Elixir of the SOLID, 8, 48
+Elixir of the SOLID, 10, 49  ->  Elixir of the SOLID, 9, 48
+Elixir of the SOLID, 11, 49  ->  Elixir of the SOLID, 10, 48
+Elixir of the SOLID, 12, 49  ->  Elixir of the SOLID, 11, 48
+Elixir of the SOLID, 13, 49  ->  Elixir of the SOLID, 12, 48
+Elixir of the SOLID, 14, 49  ->  Elixir of the SOLID, 13, 48
+Elixir of the SOLID, 15, 49  ->  Elixir of the SOLID, 14, 48
+Elixir of the SOLID, -5, 50  ->  Elixir of the SOLID, -6, 48
+Elixir of the SOLID, -4, 50  ->  Elixir of the SOLID, -5, 48
+Elixir of the SOLID, -3, 50  ->  Elixir of the SOLID, -4, 48
+Elixir of the SOLID, -2, 50  ->  Elixir of the SOLID, -3, 48
+Elixir of the SOLID, -1, 50  ->  Elixir of the SOLID, -2, 48
+Elixir of the SOLID, 0, 50  ->  Elixir of the SOLID, -1, 48
+Elixir of the SOLID, 1, 50  ->  Elixir of the SOLID, 0, 49
+Elixir of the SOLID, 2, 50  ->  Elixir of the SOLID, 1, 49
+Elixir of the SOLID, 3, 50  ->  Elixir of the SOLID, 2, 49
+Elixir of the SOLID, 4, 50  ->  Elixir of the SOLID, 3, 49
+Elixir of the SOLID, 5, 50  ->  Elixir of the SOLID, 4, 49
+Elixir of the SOLID, 6, 50  ->  Elixir of the SOLID, 5, 49
+Elixir of the SOLID, 7, 50  ->  Elixir of the SOLID, 6, 49
+Elixir of the SOLID, 8, 50  ->  Elixir of the SOLID, 7, 49
+Elixir of the SOLID, 9, 50  ->  Elixir of the SOLID, 8, 49
+Elixir of the SOLID, 10, 50  ->  Elixir of the SOLID, 9, 49
+Elixir of the SOLID, 11, 50  ->  Elixir of the SOLID, 10, 49
+Elixir of the SOLID, 12, 50  ->  Elixir of the SOLID, 11, 49
+Elixir of the SOLID, 13, 50  ->  Elixir of the SOLID, 12, 49
+Elixir of the SOLID, 14, 50  ->  Elixir of the SOLID, 13, 49
+Elixir of the SOLID, 15, 50  ->  Elixir of the SOLID, 14, 49
+
+-------- Good Wine --------
+Good Wine, -5, 0  ->  Good Wine, -6, 2
+Good Wine, -4, 0  ->  Good Wine, -5, 2
+Good Wine, -3, 0  ->  Good Wine, -4, 2
+Good Wine, -2, 0  ->  Good Wine, -3, 2
+Good Wine, -1, 0  ->  Good Wine, -2, 2
+Good Wine, 0, 0  ->  Good Wine, -1, 2
+Good Wine, 1, 0  ->  Good Wine, 0, 1
+Good Wine, 2, 0  ->  Good Wine, 1, 1
+Good Wine, 3, 0  ->  Good Wine, 2, 1
+Good Wine, 4, 0  ->  Good Wine, 3, 1
+Good Wine, 5, 0  ->  Good Wine, 4, 1
+Good Wine, 6, 0  ->  Good Wine, 5, 1
+Good Wine, 7, 0  ->  Good Wine, 6, 1
+Good Wine, 8, 0  ->  Good Wine, 7, 1
+Good Wine, 9, 0  ->  Good Wine, 8, 1
+Good Wine, 10, 0  ->  Good Wine, 9, 1
+Good Wine, 11, 0  ->  Good Wine, 10, 1
+Good Wine, 12, 0  ->  Good Wine, 11, 1
+Good Wine, 13, 0  ->  Good Wine, 12, 1
+Good Wine, 14, 0  ->  Good Wine, 13, 1
+Good Wine, 15, 0  ->  Good Wine, 14, 1
+Good Wine, -5, 1  ->  Good Wine, -6, 3
+Good Wine, -4, 1  ->  Good Wine, -5, 3
+Good Wine, -3, 1  ->  Good Wine, -4, 3
+Good Wine, -2, 1  ->  Good Wine, -3, 3
+Good Wine, -1, 1  ->  Good Wine, -2, 3
+Good Wine, 0, 1  ->  Good Wine, -1, 3
+Good Wine, 1, 1  ->  Good Wine, 0, 2
+Good Wine, 2, 1  ->  Good Wine, 1, 2
+Good Wine, 3, 1  ->  Good Wine, 2, 2
+Good Wine, 4, 1  ->  Good Wine, 3, 2
+Good Wine, 5, 1  ->  Good Wine, 4, 2
+Good Wine, 6, 1  ->  Good Wine, 5, 2
+Good Wine, 7, 1  ->  Good Wine, 6, 2
+Good Wine, 8, 1  ->  Good Wine, 7, 2
+Good Wine, 9, 1  ->  Good Wine, 8, 2
+Good Wine, 10, 1  ->  Good Wine, 9, 2
+Good Wine, 11, 1  ->  Good Wine, 10, 2
+Good Wine, 12, 1  ->  Good Wine, 11, 2
+Good Wine, 13, 1  ->  Good Wine, 12, 2
+Good Wine, 14, 1  ->  Good Wine, 13, 2
+Good Wine, 15, 1  ->  Good Wine, 14, 2
+Good Wine, -5, 2  ->  Good Wine, -6, 4
+Good Wine, -4, 2  ->  Good Wine, -5, 4
+Good Wine, -3, 2  ->  Good Wine, -4, 4
+Good Wine, -2, 2  ->  Good Wine, -3, 4
+Good Wine, -1, 2  ->  Good Wine, -2, 4
+Good Wine, 0, 2  ->  Good Wine, -1, 4
+Good Wine, 1, 2  ->  Good Wine, 0, 3
+Good Wine, 2, 2  ->  Good Wine, 1, 3
+Good Wine, 3, 2  ->  Good Wine, 2, 3
+Good Wine, 4, 2  ->  Good Wine, 3, 3
+Good Wine, 5, 2  ->  Good Wine, 4, 3
+Good Wine, 6, 2  ->  Good Wine, 5, 3
+Good Wine, 7, 2  ->  Good Wine, 6, 3
+Good Wine, 8, 2  ->  Good Wine, 7, 3
+Good Wine, 9, 2  ->  Good Wine, 8, 3
+Good Wine, 10, 2  ->  Good Wine, 9, 3
+Good Wine, 11, 2  ->  Good Wine, 10, 3
+Good Wine, 12, 2  ->  Good Wine, 11, 3
+Good Wine, 13, 2  ->  Good Wine, 12, 3
+Good Wine, 14, 2  ->  Good Wine, 13, 3
+Good Wine, 15, 2  ->  Good Wine, 14, 3
+Good Wine, -5, 49  ->  Good Wine, -6, 50
+Good Wine, -4, 49  ->  Good Wine, -5, 50
+Good Wine, -3, 49  ->  Good Wine, -4, 50
+Good Wine, -2, 49  ->  Good Wine, -3, 50
+Good Wine, -1, 49  ->  Good Wine, -2, 50
+Good Wine, 0, 49  ->  Good Wine, -1, 50
+Good Wine, 1, 49  ->  Good Wine, 0, 50
+Good Wine, 2, 49  ->  Good Wine, 1, 50
+Good Wine, 3, 49  ->  Good Wine, 2, 50
+Good Wine, 4, 49  ->  Good Wine, 3, 50
+Good Wine, 5, 49  ->  Good Wine, 4, 50
+Good Wine, 6, 49  ->  Good Wine, 5, 50
+Good Wine, 7, 49  ->  Good Wine, 6, 50
+Good Wine, 8, 49  ->  Good Wine, 7, 50
+Good Wine, 9, 49  ->  Good Wine, 8, 50
+Good Wine, 10, 49  ->  Good Wine, 9, 50
+Good Wine, 11, 49  ->  Good Wine, 10, 50
+Good Wine, 12, 49  ->  Good Wine, 11, 50
+Good Wine, 13, 49  ->  Good Wine, 12, 50
+Good Wine, 14, 49  ->  Good Wine, 13, 50
+Good Wine, 15, 49  ->  Good Wine, 14, 50
+Good Wine, -5, 50  ->  Good Wine, -6, 50
+Good Wine, -4, 50  ->  Good Wine, -5, 50
+Good Wine, -3, 50  ->  Good Wine, -4, 50
+Good Wine, -2, 50  ->  Good Wine, -3, 50
+Good Wine, -1, 50  ->  Good Wine, -2, 50
+Good Wine, 0, 50  ->  Good Wine, -1, 50
+Good Wine, 1, 50  ->  Good Wine, 0, 50
+Good Wine, 2, 50  ->  Good Wine, 1, 50
+Good Wine, 3, 50  ->  Good Wine, 2, 50
+Good Wine, 4, 50  ->  Good Wine, 3, 50
+Good Wine, 5, 50  ->  Good Wine, 4, 50
+Good Wine, 6, 50  ->  Good Wine, 5, 50
+Good Wine, 7, 50  ->  Good Wine, 6, 50
+Good Wine, 8, 50  ->  Good Wine, 7, 50
+Good Wine, 9, 50  ->  Good Wine, 8, 50
+Good Wine, 10, 50  ->  Good Wine, 9, 50
+Good Wine, 11, 50  ->  Good Wine, 10, 50
+Good Wine, 12, 50  ->  Good Wine, 11, 50
+Good Wine, 13, 50  ->  Good Wine, 12, 50
+Good Wine, 14, 50  ->  Good Wine, 13, 50
+Good Wine, 15, 50  ->  Good Wine, 14, 50
+
+-------- B-DAWG Keychain --------
+B-DAWG Keychain, -5, 0  ->  B-DAWG Keychain, -5, 0
+B-DAWG Keychain, -4, 0  ->  B-DAWG Keychain, -4, 0
+B-DAWG Keychain, -3, 0  ->  B-DAWG Keychain, -3, 0
+B-DAWG Keychain, -2, 0  ->  B-DAWG Keychain, -2, 0
+B-DAWG Keychain, -1, 0  ->  B-DAWG Keychain, -1, 0
+B-DAWG Keychain, 0, 0  ->  B-DAWG Keychain, 0, 0
+B-DAWG Keychain, 1, 0  ->  B-DAWG Keychain, 1, 0
+B-DAWG Keychain, 2, 0  ->  B-DAWG Keychain, 2, 0
+B-DAWG Keychain, 3, 0  ->  B-DAWG Keychain, 3, 0
+B-DAWG Keychain, 4, 0  ->  B-DAWG Keychain, 4, 0
+B-DAWG Keychain, 5, 0  ->  B-DAWG Keychain, 5, 0
+B-DAWG Keychain, 6, 0  ->  B-DAWG Keychain, 6, 0
+B-DAWG Keychain, 7, 0  ->  B-DAWG Keychain, 7, 0
+B-DAWG Keychain, 8, 0  ->  B-DAWG Keychain, 8, 0
+B-DAWG Keychain, 9, 0  ->  B-DAWG Keychain, 9, 0
+B-DAWG Keychain, 10, 0  ->  B-DAWG Keychain, 10, 0
+B-DAWG Keychain, 11, 0  ->  B-DAWG Keychain, 11, 0
+B-DAWG Keychain, 12, 0  ->  B-DAWG Keychain, 12, 0
+B-DAWG Keychain, 13, 0  ->  B-DAWG Keychain, 13, 0
+B-DAWG Keychain, 14, 0  ->  B-DAWG Keychain, 14, 0
+B-DAWG Keychain, 15, 0  ->  B-DAWG Keychain, 15, 0
+B-DAWG Keychain, -5, 80  ->  B-DAWG Keychain, -5, 80
+B-DAWG Keychain, -4, 80  ->  B-DAWG Keychain, -4, 80
+B-DAWG Keychain, -3, 80  ->  B-DAWG Keychain, -3, 80
+B-DAWG Keychain, -2, 80  ->  B-DAWG Keychain, -2, 80
+B-DAWG Keychain, -1, 80  ->  B-DAWG Keychain, -1, 80
+B-DAWG Keychain, 0, 80  ->  B-DAWG Keychain, 0, 80
+B-DAWG Keychain, 1, 80  ->  B-DAWG Keychain, 1, 80
+B-DAWG Keychain, 2, 80  ->  B-DAWG Keychain, 2, 80
+B-DAWG Keychain, 3, 80  ->  B-DAWG Keychain, 3, 80
+B-DAWG Keychain, 4, 80  ->  B-DAWG Keychain, 4, 80
+B-DAWG Keychain, 5, 80  ->  B-DAWG Keychain, 5, 80
+B-DAWG Keychain, 6, 80  ->  B-DAWG Keychain, 6, 80
+B-DAWG Keychain, 7, 80  ->  B-DAWG Keychain, 7, 80
+B-DAWG Keychain, 8, 80  ->  B-DAWG Keychain, 8, 80
+B-DAWG Keychain, 9, 80  ->  B-DAWG Keychain, 9, 80
+B-DAWG Keychain, 10, 80  ->  B-DAWG Keychain, 10, 80
+B-DAWG Keychain, 11, 80  ->  B-DAWG Keychain, 11, 80
+B-DAWG Keychain, 12, 80  ->  B-DAWG Keychain, 12, 80
+B-DAWG Keychain, 13, 80  ->  B-DAWG Keychain, 13, 80
+B-DAWG Keychain, 14, 80  ->  B-DAWG Keychain, 14, 80
+B-DAWG Keychain, 15, 80  ->  B-DAWG Keychain, 15, 80
+
+-------- Backstage passes for Re:Factor --------
+Backstage passes for Re:Factor, -5, 0  ->  Backstage passes for Re:Factor, -6, 0
+Backstage passes for Re:Factor, -4, 0  ->  Backstage passes for Re:Factor, -5, 0
+Backstage passes for Re:Factor, -3, 0  ->  Backstage passes for Re:Factor, -4, 0
+Backstage passes for Re:Factor, -2, 0  ->  Backstage passes for Re:Factor, -3, 0
+Backstage passes for Re:Factor, -1, 0  ->  Backstage passes for Re:Factor, -2, 0
+Backstage passes for Re:Factor, 0, 0  ->  Backstage passes for Re:Factor, -1, 0
+Backstage passes for Re:Factor, 1, 0  ->  Backstage passes for Re:Factor, 0, 3
+Backstage passes for Re:Factor, 2, 0  ->  Backstage passes for Re:Factor, 1, 3
+Backstage passes for Re:Factor, 3, 0  ->  Backstage passes for Re:Factor, 2, 3
+Backstage passes for Re:Factor, 4, 0  ->  Backstage passes for Re:Factor, 3, 3
+Backstage passes for Re:Factor, 5, 0  ->  Backstage passes for Re:Factor, 4, 3
+Backstage passes for Re:Factor, 6, 0  ->  Backstage passes for Re:Factor, 5, 2
+Backstage passes for Re:Factor, 7, 0  ->  Backstage passes for Re:Factor, 6, 2
+Backstage passes for Re:Factor, 8, 0  ->  Backstage passes for Re:Factor, 7, 2
+Backstage passes for Re:Factor, 9, 0  ->  Backstage passes for Re:Factor, 8, 2
+Backstage passes for Re:Factor, 10, 0  ->  Backstage passes for Re:Factor, 9, 2
+Backstage passes for Re:Factor, 11, 0  ->  Backstage passes for Re:Factor, 10, 1
+Backstage passes for Re:Factor, 12, 0  ->  Backstage passes for Re:Factor, 11, 1
+Backstage passes for Re:Factor, 13, 0  ->  Backstage passes for Re:Factor, 12, 1
+Backstage passes for Re:Factor, 14, 0  ->  Backstage passes for Re:Factor, 13, 1
+Backstage passes for Re:Factor, 15, 0  ->  Backstage passes for Re:Factor, 14, 1
+Backstage passes for Re:Factor, -5, 1  ->  Backstage passes for Re:Factor, -6, 0
+Backstage passes for Re:Factor, -4, 1  ->  Backstage passes for Re:Factor, -5, 0
+Backstage passes for Re:Factor, -3, 1  ->  Backstage passes for Re:Factor, -4, 0
+Backstage passes for Re:Factor, -2, 1  ->  Backstage passes for Re:Factor, -3, 0
+Backstage passes for Re:Factor, -1, 1  ->  Backstage passes for Re:Factor, -2, 0
+Backstage passes for Re:Factor, 0, 1  ->  Backstage passes for Re:Factor, -1, 0
+Backstage passes for Re:Factor, 1, 1  ->  Backstage passes for Re:Factor, 0, 4
+Backstage passes for Re:Factor, 2, 1  ->  Backstage passes for Re:Factor, 1, 4
+Backstage passes for Re:Factor, 3, 1  ->  Backstage passes for Re:Factor, 2, 4
+Backstage passes for Re:Factor, 4, 1  ->  Backstage passes for Re:Factor, 3, 4
+Backstage passes for Re:Factor, 5, 1  ->  Backstage passes for Re:Factor, 4, 4
+Backstage passes for Re:Factor, 6, 1  ->  Backstage passes for Re:Factor, 5, 3
+Backstage passes for Re:Factor, 7, 1  ->  Backstage passes for Re:Factor, 6, 3
+Backstage passes for Re:Factor, 8, 1  ->  Backstage passes for Re:Factor, 7, 3
+Backstage passes for Re:Factor, 9, 1  ->  Backstage passes for Re:Factor, 8, 3
+Backstage passes for Re:Factor, 10, 1  ->  Backstage passes for Re:Factor, 9, 3
+Backstage passes for Re:Factor, 11, 1  ->  Backstage passes for Re:Factor, 10, 2
+Backstage passes for Re:Factor, 12, 1  ->  Backstage passes for Re:Factor, 11, 2
+Backstage passes for Re:Factor, 13, 1  ->  Backstage passes for Re:Factor, 12, 2
+Backstage passes for Re:Factor, 14, 1  ->  Backstage passes for Re:Factor, 13, 2
+Backstage passes for Re:Factor, 15, 1  ->  Backstage passes for Re:Factor, 14, 2
+Backstage passes for Re:Factor, -5, 2  ->  Backstage passes for Re:Factor, -6, 0
+Backstage passes for Re:Factor, -4, 2  ->  Backstage passes for Re:Factor, -5, 0
+Backstage passes for Re:Factor, -3, 2  ->  Backstage passes for Re:Factor, -4, 0
+Backstage passes for Re:Factor, -2, 2  ->  Backstage passes for Re:Factor, -3, 0
+Backstage passes for Re:Factor, -1, 2  ->  Backstage passes for Re:Factor, -2, 0
+Backstage passes for Re:Factor, 0, 2  ->  Backstage passes for Re:Factor, -1, 0
+Backstage passes for Re:Factor, 1, 2  ->  Backstage passes for Re:Factor, 0, 5
+Backstage passes for Re:Factor, 2, 2  ->  Backstage passes for Re:Factor, 1, 5
+Backstage passes for Re:Factor, 3, 2  ->  Backstage passes for Re:Factor, 2, 5
+Backstage passes for Re:Factor, 4, 2  ->  Backstage passes for Re:Factor, 3, 5
+Backstage passes for Re:Factor, 5, 2  ->  Backstage passes for Re:Factor, 4, 5
+Backstage passes for Re:Factor, 6, 2  ->  Backstage passes for Re:Factor, 5, 4
+Backstage passes for Re:Factor, 7, 2  ->  Backstage passes for Re:Factor, 6, 4
+Backstage passes for Re:Factor, 8, 2  ->  Backstage passes for Re:Factor, 7, 4
+Backstage passes for Re:Factor, 9, 2  ->  Backstage passes for Re:Factor, 8, 4
+Backstage passes for Re:Factor, 10, 2  ->  Backstage passes for Re:Factor, 9, 4
+Backstage passes for Re:Factor, 11, 2  ->  Backstage passes for Re:Factor, 10, 3
+Backstage passes for Re:Factor, 12, 2  ->  Backstage passes for Re:Factor, 11, 3
+Backstage passes for Re:Factor, 13, 2  ->  Backstage passes for Re:Factor, 12, 3
+Backstage passes for Re:Factor, 14, 2  ->  Backstage passes for Re:Factor, 13, 3
+Backstage passes for Re:Factor, 15, 2  ->  Backstage passes for Re:Factor, 14, 3
+Backstage passes for Re:Factor, -5, 49  ->  Backstage passes for Re:Factor, -6, 0
+Backstage passes for Re:Factor, -4, 49  ->  Backstage passes for Re:Factor, -5, 0
+Backstage passes for Re:Factor, -3, 49  ->  Backstage passes for Re:Factor, -4, 0
+Backstage passes for Re:Factor, -2, 49  ->  Backstage passes for Re:Factor, -3, 0
+Backstage passes for Re:Factor, -1, 49  ->  Backstage passes for Re:Factor, -2, 0
+Backstage passes for Re:Factor, 0, 49  ->  Backstage passes for Re:Factor, -1, 0
+Backstage passes for Re:Factor, 1, 49  ->  Backstage passes for Re:Factor, 0, 50
+Backstage passes for Re:Factor, 2, 49  ->  Backstage passes for Re:Factor, 1, 50
+Backstage passes for Re:Factor, 3, 49  ->  Backstage passes for Re:Factor, 2, 50
+Backstage passes for Re:Factor, 4, 49  ->  Backstage passes for Re:Factor, 3, 50
+Backstage passes for Re:Factor, 5, 49  ->  Backstage passes for Re:Factor, 4, 50
+Backstage passes for Re:Factor, 6, 49  ->  Backstage passes for Re:Factor, 5, 50
+Backstage passes for Re:Factor, 7, 49  ->  Backstage passes for Re:Factor, 6, 50
+Backstage passes for Re:Factor, 8, 49  ->  Backstage passes for Re:Factor, 7, 50
+Backstage passes for Re:Factor, 9, 49  ->  Backstage passes for Re:Factor, 8, 50
+Backstage passes for Re:Factor, 10, 49  ->  Backstage passes for Re:Factor, 9, 50
+Backstage passes for Re:Factor, 11, 49  ->  Backstage passes for Re:Factor, 10, 50
+Backstage passes for Re:Factor, 12, 49  ->  Backstage passes for Re:Factor, 11, 50
+Backstage passes for Re:Factor, 13, 49  ->  Backstage passes for Re:Factor, 12, 50
+Backstage passes for Re:Factor, 14, 49  ->  Backstage passes for Re:Factor, 13, 50
+Backstage passes for Re:Factor, 15, 49  ->  Backstage passes for Re:Factor, 14, 50
+Backstage passes for Re:Factor, -5, 50  ->  Backstage passes for Re:Factor, -6, 0
+Backstage passes for Re:Factor, -4, 50  ->  Backstage passes for Re:Factor, -5, 0
+Backstage passes for Re:Factor, -3, 50  ->  Backstage passes for Re:Factor, -4, 0
+Backstage passes for Re:Factor, -2, 50  ->  Backstage passes for Re:Factor, -3, 0
+Backstage passes for Re:Factor, -1, 50  ->  Backstage passes for Re:Factor, -2, 0
+Backstage passes for Re:Factor, 0, 50  ->  Backstage passes for Re:Factor, -1, 0
+Backstage passes for Re:Factor, 1, 50  ->  Backstage passes for Re:Factor, 0, 50
+Backstage passes for Re:Factor, 2, 50  ->  Backstage passes for Re:Factor, 1, 50
+Backstage passes for Re:Factor, 3, 50  ->  Backstage passes for Re:Factor, 2, 50
+Backstage passes for Re:Factor, 4, 50  ->  Backstage passes for Re:Factor, 3, 50
+Backstage passes for Re:Factor, 5, 50  ->  Backstage passes for Re:Factor, 4, 50
+Backstage passes for Re:Factor, 6, 50  ->  Backstage passes for Re:Factor, 5, 50
+Backstage passes for Re:Factor, 7, 50  ->  Backstage passes for Re:Factor, 6, 50
+Backstage passes for Re:Factor, 8, 50  ->  Backstage passes for Re:Factor, 7, 50
+Backstage passes for Re:Factor, 9, 50  ->  Backstage passes for Re:Factor, 8, 50
+Backstage passes for Re:Factor, 10, 50  ->  Backstage passes for Re:Factor, 9, 50
+Backstage passes for Re:Factor, 11, 50  ->  Backstage passes for Re:Factor, 10, 50
+Backstage passes for Re:Factor, 12, 50  ->  Backstage passes for Re:Factor, 11, 50
+Backstage passes for Re:Factor, 13, 50  ->  Backstage passes for Re:Factor, 12, 50
+Backstage passes for Re:Factor, 14, 50  ->  Backstage passes for Re:Factor, 13, 50
+Backstage passes for Re:Factor, 15, 50  ->  Backstage passes for Re:Factor, 14, 50
+
+-------- Backstage passes for HAXX --------
+Backstage passes for HAXX, -5, 0  ->  Backstage passes for HAXX, -6, 0
+Backstage passes for HAXX, -4, 0  ->  Backstage passes for HAXX, -5, 0
+Backstage passes for HAXX, -3, 0  ->  Backstage passes for HAXX, -4, 0
+Backstage passes for HAXX, -2, 0  ->  Backstage passes for HAXX, -3, 0
+Backstage passes for HAXX, -1, 0  ->  Backstage passes for HAXX, -2, 0
+Backstage passes for HAXX, 0, 0  ->  Backstage passes for HAXX, -1, 0
+Backstage passes for HAXX, 1, 0  ->  Backstage passes for HAXX, 0, 3
+Backstage passes for HAXX, 2, 0  ->  Backstage passes for HAXX, 1, 3
+Backstage passes for HAXX, 3, 0  ->  Backstage passes for HAXX, 2, 3
+Backstage passes for HAXX, 4, 0  ->  Backstage passes for HAXX, 3, 3
+Backstage passes for HAXX, 5, 0  ->  Backstage passes for HAXX, 4, 3
+Backstage passes for HAXX, 6, 0  ->  Backstage passes for HAXX, 5, 2
+Backstage passes for HAXX, 7, 0  ->  Backstage passes for HAXX, 6, 2
+Backstage passes for HAXX, 8, 0  ->  Backstage passes for HAXX, 7, 2
+Backstage passes for HAXX, 9, 0  ->  Backstage passes for HAXX, 8, 2
+Backstage passes for HAXX, 10, 0  ->  Backstage passes for HAXX, 9, 2
+Backstage passes for HAXX, 11, 0  ->  Backstage passes for HAXX, 10, 1
+Backstage passes for HAXX, 12, 0  ->  Backstage passes for HAXX, 11, 1
+Backstage passes for HAXX, 13, 0  ->  Backstage passes for HAXX, 12, 1
+Backstage passes for HAXX, 14, 0  ->  Backstage passes for HAXX, 13, 1
+Backstage passes for HAXX, 15, 0  ->  Backstage passes for HAXX, 14, 1
+Backstage passes for HAXX, -5, 1  ->  Backstage passes for HAXX, -6, 0
+Backstage passes for HAXX, -4, 1  ->  Backstage passes for HAXX, -5, 0
+Backstage passes for HAXX, -3, 1  ->  Backstage passes for HAXX, -4, 0
+Backstage passes for HAXX, -2, 1  ->  Backstage passes for HAXX, -3, 0
+Backstage passes for HAXX, -1, 1  ->  Backstage passes for HAXX, -2, 0
+Backstage passes for HAXX, 0, 1  ->  Backstage passes for HAXX, -1, 0
+Backstage passes for HAXX, 1, 1  ->  Backstage passes for HAXX, 0, 4
+Backstage passes for HAXX, 2, 1  ->  Backstage passes for HAXX, 1, 4
+Backstage passes for HAXX, 3, 1  ->  Backstage passes for HAXX, 2, 4
+Backstage passes for HAXX, 4, 1  ->  Backstage passes for HAXX, 3, 4
+Backstage passes for HAXX, 5, 1  ->  Backstage passes for HAXX, 4, 4
+Backstage passes for HAXX, 6, 1  ->  Backstage passes for HAXX, 5, 3
+Backstage passes for HAXX, 7, 1  ->  Backstage passes for HAXX, 6, 3
+Backstage passes for HAXX, 8, 1  ->  Backstage passes for HAXX, 7, 3
+Backstage passes for HAXX, 9, 1  ->  Backstage passes for HAXX, 8, 3
+Backstage passes for HAXX, 10, 1  ->  Backstage passes for HAXX, 9, 3
+Backstage passes for HAXX, 11, 1  ->  Backstage passes for HAXX, 10, 2
+Backstage passes for HAXX, 12, 1  ->  Backstage passes for HAXX, 11, 2
+Backstage passes for HAXX, 13, 1  ->  Backstage passes for HAXX, 12, 2
+Backstage passes for HAXX, 14, 1  ->  Backstage passes for HAXX, 13, 2
+Backstage passes for HAXX, 15, 1  ->  Backstage passes for HAXX, 14, 2
+Backstage passes for HAXX, -5, 2  ->  Backstage passes for HAXX, -6, 0
+Backstage passes for HAXX, -4, 2  ->  Backstage passes for HAXX, -5, 0
+Backstage passes for HAXX, -3, 2  ->  Backstage passes for HAXX, -4, 0
+Backstage passes for HAXX, -2, 2  ->  Backstage passes for HAXX, -3, 0
+Backstage passes for HAXX, -1, 2  ->  Backstage passes for HAXX, -2, 0
+Backstage passes for HAXX, 0, 2  ->  Backstage passes for HAXX, -1, 0
+Backstage passes for HAXX, 1, 2  ->  Backstage passes for HAXX, 0, 5
+Backstage passes for HAXX, 2, 2  ->  Backstage passes for HAXX, 1, 5
+Backstage passes for HAXX, 3, 2  ->  Backstage passes for HAXX, 2, 5
+Backstage passes for HAXX, 4, 2  ->  Backstage passes for HAXX, 3, 5
+Backstage passes for HAXX, 5, 2  ->  Backstage passes for HAXX, 4, 5
+Backstage passes for HAXX, 6, 2  ->  Backstage passes for HAXX, 5, 4
+Backstage passes for HAXX, 7, 2  ->  Backstage passes for HAXX, 6, 4
+Backstage passes for HAXX, 8, 2  ->  Backstage passes for HAXX, 7, 4
+Backstage passes for HAXX, 9, 2  ->  Backstage passes for HAXX, 8, 4
+Backstage passes for HAXX, 10, 2  ->  Backstage passes for HAXX, 9, 4
+Backstage passes for HAXX, 11, 2  ->  Backstage passes for HAXX, 10, 3
+Backstage passes for HAXX, 12, 2  ->  Backstage passes for HAXX, 11, 3
+Backstage passes for HAXX, 13, 2  ->  Backstage passes for HAXX, 12, 3
+Backstage passes for HAXX, 14, 2  ->  Backstage passes for HAXX, 13, 3
+Backstage passes for HAXX, 15, 2  ->  Backstage passes for HAXX, 14, 3
+Backstage passes for HAXX, -5, 49  ->  Backstage passes for HAXX, -6, 0
+Backstage passes for HAXX, -4, 49  ->  Backstage passes for HAXX, -5, 0
+Backstage passes for HAXX, -3, 49  ->  Backstage passes for HAXX, -4, 0
+Backstage passes for HAXX, -2, 49  ->  Backstage passes for HAXX, -3, 0
+Backstage passes for HAXX, -1, 49  ->  Backstage passes for HAXX, -2, 0
+Backstage passes for HAXX, 0, 49  ->  Backstage passes for HAXX, -1, 0
+Backstage passes for HAXX, 1, 49  ->  Backstage passes for HAXX, 0, 50
+Backstage passes for HAXX, 2, 49  ->  Backstage passes for HAXX, 1, 50
+Backstage passes for HAXX, 3, 49  ->  Backstage passes for HAXX, 2, 50
+Backstage passes for HAXX, 4, 49  ->  Backstage passes for HAXX, 3, 50
+Backstage passes for HAXX, 5, 49  ->  Backstage passes for HAXX, 4, 50
+Backstage passes for HAXX, 6, 49  ->  Backstage passes for HAXX, 5, 50
+Backstage passes for HAXX, 7, 49  ->  Backstage passes for HAXX, 6, 50
+Backstage passes for HAXX, 8, 49  ->  Backstage passes for HAXX, 7, 50
+Backstage passes for HAXX, 9, 49  ->  Backstage passes for HAXX, 8, 50
+Backstage passes for HAXX, 10, 49  ->  Backstage passes for HAXX, 9, 50
+Backstage passes for HAXX, 11, 49  ->  Backstage passes for HAXX, 10, 50
+Backstage passes for HAXX, 12, 49  ->  Backstage passes for HAXX, 11, 50
+Backstage passes for HAXX, 13, 49  ->  Backstage passes for HAXX, 12, 50
+Backstage passes for HAXX, 14, 49  ->  Backstage passes for HAXX, 13, 50
+Backstage passes for HAXX, 15, 49  ->  Backstage passes for HAXX, 14, 50
+Backstage passes for HAXX, -5, 50  ->  Backstage passes for HAXX, -6, 0
+Backstage passes for HAXX, -4, 50  ->  Backstage passes for HAXX, -5, 0
+Backstage passes for HAXX, -3, 50  ->  Backstage passes for HAXX, -4, 0
+Backstage passes for HAXX, -2, 50  ->  Backstage passes for HAXX, -3, 0
+Backstage passes for HAXX, -1, 50  ->  Backstage passes for HAXX, -2, 0
+Backstage passes for HAXX, 0, 50  ->  Backstage passes for HAXX, -1, 0
+Backstage passes for HAXX, 1, 50  ->  Backstage passes for HAXX, 0, 50
+Backstage passes for HAXX, 2, 50  ->  Backstage passes for HAXX, 1, 50
+Backstage passes for HAXX, 3, 50  ->  Backstage passes for HAXX, 2, 50
+Backstage passes for HAXX, 4, 50  ->  Backstage passes for HAXX, 3, 50
+Backstage passes for HAXX, 5, 50  ->  Backstage passes for HAXX, 4, 50
+Backstage passes for HAXX, 6, 50  ->  Backstage passes for HAXX, 5, 50
+Backstage passes for HAXX, 7, 50  ->  Backstage passes for HAXX, 6, 50
+Backstage passes for HAXX, 8, 50  ->  Backstage passes for HAXX, 7, 50
+Backstage passes for HAXX, 9, 50  ->  Backstage passes for HAXX, 8, 50
+Backstage passes for HAXX, 10, 50  ->  Backstage passes for HAXX, 9, 50
+Backstage passes for HAXX, 11, 50  ->  Backstage passes for HAXX, 10, 50
+Backstage passes for HAXX, 12, 50  ->  Backstage passes for HAXX, 11, 50
+Backstage passes for HAXX, 13, 50  ->  Backstage passes for HAXX, 12, 50
+Backstage passes for HAXX, 14, 50  ->  Backstage passes for HAXX, 13, 50
+Backstage passes for HAXX, 15, 50  ->  Backstage passes for HAXX, 14, 50
+
+-------- Duplicate Code --------
+Duplicate Code, -5, 0  ->  Duplicate Code, -6, 0
+Duplicate Code, -4, 0  ->  Duplicate Code, -5, 0
+Duplicate Code, -3, 0  ->  Duplicate Code, -4, 0
+Duplicate Code, -2, 0  ->  Duplicate Code, -3, 0
+Duplicate Code, -1, 0  ->  Duplicate Code, -2, 0
+Duplicate Code, 0, 0  ->  Duplicate Code, -1, 0
+Duplicate Code, 1, 0  ->  Duplicate Code, 0, 0
+Duplicate Code, 2, 0  ->  Duplicate Code, 1, 0
+Duplicate Code, 3, 0  ->  Duplicate Code, 2, 0
+Duplicate Code, 4, 0  ->  Duplicate Code, 3, 0
+Duplicate Code, 5, 0  ->  Duplicate Code, 4, 0
+Duplicate Code, 6, 0  ->  Duplicate Code, 5, 0
+Duplicate Code, 7, 0  ->  Duplicate Code, 6, 0
+Duplicate Code, 8, 0  ->  Duplicate Code, 7, 0
+Duplicate Code, 9, 0  ->  Duplicate Code, 8, 0
+Duplicate Code, 10, 0  ->  Duplicate Code, 9, 0
+Duplicate Code, 11, 0  ->  Duplicate Code, 10, 0
+Duplicate Code, 12, 0  ->  Duplicate Code, 11, 0
+Duplicate Code, 13, 0  ->  Duplicate Code, 12, 0
+Duplicate Code, 14, 0  ->  Duplicate Code, 13, 0
+Duplicate Code, 15, 0  ->  Duplicate Code, 14, 0
+Duplicate Code, -5, 1  ->  Duplicate Code, -6, 0
+Duplicate Code, -4, 1  ->  Duplicate Code, -5, 0
+Duplicate Code, -3, 1  ->  Duplicate Code, -4, 0
+Duplicate Code, -2, 1  ->  Duplicate Code, -3, 0
+Duplicate Code, -1, 1  ->  Duplicate Code, -2, 0
+Duplicate Code, 0, 1  ->  Duplicate Code, -1, 0
+Duplicate Code, 1, 1  ->  Duplicate Code, 0, 0
+Duplicate Code, 2, 1  ->  Duplicate Code, 1, 0
+Duplicate Code, 3, 1  ->  Duplicate Code, 2, 0
+Duplicate Code, 4, 1  ->  Duplicate Code, 3, 0
+Duplicate Code, 5, 1  ->  Duplicate Code, 4, 0
+Duplicate Code, 6, 1  ->  Duplicate Code, 5, 0
+Duplicate Code, 7, 1  ->  Duplicate Code, 6, 0
+Duplicate Code, 8, 1  ->  Duplicate Code, 7, 0
+Duplicate Code, 9, 1  ->  Duplicate Code, 8, 0
+Duplicate Code, 10, 1  ->  Duplicate Code, 9, 0
+Duplicate Code, 11, 1  ->  Duplicate Code, 10, 0
+Duplicate Code, 12, 1  ->  Duplicate Code, 11, 0
+Duplicate Code, 13, 1  ->  Duplicate Code, 12, 0
+Duplicate Code, 14, 1  ->  Duplicate Code, 13, 0
+Duplicate Code, 15, 1  ->  Duplicate Code, 14, 0
+Duplicate Code, -5, 2  ->  Duplicate Code, -6, 0
+Duplicate Code, -4, 2  ->  Duplicate Code, -5, 0
+Duplicate Code, -3, 2  ->  Duplicate Code, -4, 0
+Duplicate Code, -2, 2  ->  Duplicate Code, -3, 0
+Duplicate Code, -1, 2  ->  Duplicate Code, -2, 0
+Duplicate Code, 0, 2  ->  Duplicate Code, -1, 0
+Duplicate Code, 1, 2  ->  Duplicate Code, 0, 1
+Duplicate Code, 2, 2  ->  Duplicate Code, 1, 1
+Duplicate Code, 3, 2  ->  Duplicate Code, 2, 1
+Duplicate Code, 4, 2  ->  Duplicate Code, 3, 1
+Duplicate Code, 5, 2  ->  Duplicate Code, 4, 1
+Duplicate Code, 6, 2  ->  Duplicate Code, 5, 1
+Duplicate Code, 7, 2  ->  Duplicate Code, 6, 1
+Duplicate Code, 8, 2  ->  Duplicate Code, 7, 1
+Duplicate Code, 9, 2  ->  Duplicate Code, 8, 1
+Duplicate Code, 10, 2  ->  Duplicate Code, 9, 1
+Duplicate Code, 11, 2  ->  Duplicate Code, 10, 1
+Duplicate Code, 12, 2  ->  Duplicate Code, 11, 1
+Duplicate Code, 13, 2  ->  Duplicate Code, 12, 1
+Duplicate Code, 14, 2  ->  Duplicate Code, 13, 1
+Duplicate Code, 15, 2  ->  Duplicate Code, 14, 1
+Duplicate Code, -5, 49  ->  Duplicate Code, -6, 47
+Duplicate Code, -4, 49  ->  Duplicate Code, -5, 47
+Duplicate Code, -3, 49  ->  Duplicate Code, -4, 47
+Duplicate Code, -2, 49  ->  Duplicate Code, -3, 47
+Duplicate Code, -1, 49  ->  Duplicate Code, -2, 47
+Duplicate Code, 0, 49  ->  Duplicate Code, -1, 47
+Duplicate Code, 1, 49  ->  Duplicate Code, 0, 48
+Duplicate Code, 2, 49  ->  Duplicate Code, 1, 48
+Duplicate Code, 3, 49  ->  Duplicate Code, 2, 48
+Duplicate Code, 4, 49  ->  Duplicate Code, 3, 48
+Duplicate Code, 5, 49  ->  Duplicate Code, 4, 48
+Duplicate Code, 6, 49  ->  Duplicate Code, 5, 48
+Duplicate Code, 7, 49  ->  Duplicate Code, 6, 48
+Duplicate Code, 8, 49  ->  Duplicate Code, 7, 48
+Duplicate Code, 9, 49  ->  Duplicate Code, 8, 48
+Duplicate Code, 10, 49  ->  Duplicate Code, 9, 48
+Duplicate Code, 11, 49  ->  Duplicate Code, 10, 48
+Duplicate Code, 12, 49  ->  Duplicate Code, 11, 48
+Duplicate Code, 13, 49  ->  Duplicate Code, 12, 48
+Duplicate Code, 14, 49  ->  Duplicate Code, 13, 48
+Duplicate Code, 15, 49  ->  Duplicate Code, 14, 48
+Duplicate Code, -5, 50  ->  Duplicate Code, -6, 48
+Duplicate Code, -4, 50  ->  Duplicate Code, -5, 48
+Duplicate Code, -3, 50  ->  Duplicate Code, -4, 48
+Duplicate Code, -2, 50  ->  Duplicate Code, -3, 48
+Duplicate Code, -1, 50  ->  Duplicate Code, -2, 48
+Duplicate Code, 0, 50  ->  Duplicate Code, -1, 48
+Duplicate Code, 1, 50  ->  Duplicate Code, 0, 49
+Duplicate Code, 2, 50  ->  Duplicate Code, 1, 49
+Duplicate Code, 3, 50  ->  Duplicate Code, 2, 49
+Duplicate Code, 4, 50  ->  Duplicate Code, 3, 49
+Duplicate Code, 5, 50  ->  Duplicate Code, 4, 49
+Duplicate Code, 6, 50  ->  Duplicate Code, 5, 49
+Duplicate Code, 7, 50  ->  Duplicate Code, 6, 49
+Duplicate Code, 8, 50  ->  Duplicate Code, 7, 49
+Duplicate Code, 9, 50  ->  Duplicate Code, 8, 49
+Duplicate Code, 10, 50  ->  Duplicate Code, 9, 49
+Duplicate Code, 11, 50  ->  Duplicate Code, 10, 49
+Duplicate Code, 12, 50  ->  Duplicate Code, 11, 49
+Duplicate Code, 13, 50  ->  Duplicate Code, 12, 49
+Duplicate Code, 14, 50  ->  Duplicate Code, 13, 49
+Duplicate Code, 15, 50  ->  Duplicate Code, 14, 49
+
+-------- Long Methods --------
+Long Methods, -5, 0  ->  Long Methods, -6, 0
+Long Methods, -4, 0  ->  Long Methods, -5, 0
+Long Methods, -3, 0  ->  Long Methods, -4, 0
+Long Methods, -2, 0  ->  Long Methods, -3, 0
+Long Methods, -1, 0  ->  Long Methods, -2, 0
+Long Methods, 0, 0  ->  Long Methods, -1, 0
+Long Methods, 1, 0  ->  Long Methods, 0, 0
+Long Methods, 2, 0  ->  Long Methods, 1, 0
+Long Methods, 3, 0  ->  Long Methods, 2, 0
+Long Methods, 4, 0  ->  Long Methods, 3, 0
+Long Methods, 5, 0  ->  Long Methods, 4, 0
+Long Methods, 6, 0  ->  Long Methods, 5, 0
+Long Methods, 7, 0  ->  Long Methods, 6, 0
+Long Methods, 8, 0  ->  Long Methods, 7, 0
+Long Methods, 9, 0  ->  Long Methods, 8, 0
+Long Methods, 10, 0  ->  Long Methods, 9, 0
+Long Methods, 11, 0  ->  Long Methods, 10, 0
+Long Methods, 12, 0  ->  Long Methods, 11, 0
+Long Methods, 13, 0  ->  Long Methods, 12, 0
+Long Methods, 14, 0  ->  Long Methods, 13, 0
+Long Methods, 15, 0  ->  Long Methods, 14, 0
+Long Methods, -5, 1  ->  Long Methods, -6, 0
+Long Methods, -4, 1  ->  Long Methods, -5, 0
+Long Methods, -3, 1  ->  Long Methods, -4, 0
+Long Methods, -2, 1  ->  Long Methods, -3, 0
+Long Methods, -1, 1  ->  Long Methods, -2, 0
+Long Methods, 0, 1  ->  Long Methods, -1, 0
+Long Methods, 1, 1  ->  Long Methods, 0, 0
+Long Methods, 2, 1  ->  Long Methods, 1, 0
+Long Methods, 3, 1  ->  Long Methods, 2, 0
+Long Methods, 4, 1  ->  Long Methods, 3, 0
+Long Methods, 5, 1  ->  Long Methods, 4, 0
+Long Methods, 6, 1  ->  Long Methods, 5, 0
+Long Methods, 7, 1  ->  Long Methods, 6, 0
+Long Methods, 8, 1  ->  Long Methods, 7, 0
+Long Methods, 9, 1  ->  Long Methods, 8, 0
+Long Methods, 10, 1  ->  Long Methods, 9, 0
+Long Methods, 11, 1  ->  Long Methods, 10, 0
+Long Methods, 12, 1  ->  Long Methods, 11, 0
+Long Methods, 13, 1  ->  Long Methods, 12, 0
+Long Methods, 14, 1  ->  Long Methods, 13, 0
+Long Methods, 15, 1  ->  Long Methods, 14, 0
+Long Methods, -5, 2  ->  Long Methods, -6, 0
+Long Methods, -4, 2  ->  Long Methods, -5, 0
+Long Methods, -3, 2  ->  Long Methods, -4, 0
+Long Methods, -2, 2  ->  Long Methods, -3, 0
+Long Methods, -1, 2  ->  Long Methods, -2, 0
+Long Methods, 0, 2  ->  Long Methods, -1, 0
+Long Methods, 1, 2  ->  Long Methods, 0, 1
+Long Methods, 2, 2  ->  Long Methods, 1, 1
+Long Methods, 3, 2  ->  Long Methods, 2, 1
+Long Methods, 4, 2  ->  Long Methods, 3, 1
+Long Methods, 5, 2  ->  Long Methods, 4, 1
+Long Methods, 6, 2  ->  Long Methods, 5, 1
+Long Methods, 7, 2  ->  Long Methods, 6, 1
+Long Methods, 8, 2  ->  Long Methods, 7, 1
+Long Methods, 9, 2  ->  Long Methods, 8, 1
+Long Methods, 10, 2  ->  Long Methods, 9, 1
+Long Methods, 11, 2  ->  Long Methods, 10, 1
+Long Methods, 12, 2  ->  Long Methods, 11, 1
+Long Methods, 13, 2  ->  Long Methods, 12, 1
+Long Methods, 14, 2  ->  Long Methods, 13, 1
+Long Methods, 15, 2  ->  Long Methods, 14, 1
+Long Methods, -5, 49  ->  Long Methods, -6, 47
+Long Methods, -4, 49  ->  Long Methods, -5, 47
+Long Methods, -3, 49  ->  Long Methods, -4, 47
+Long Methods, -2, 49  ->  Long Methods, -3, 47
+Long Methods, -1, 49  ->  Long Methods, -2, 47
+Long Methods, 0, 49  ->  Long Methods, -1, 47
+Long Methods, 1, 49  ->  Long Methods, 0, 48
+Long Methods, 2, 49  ->  Long Methods, 1, 48
+Long Methods, 3, 49  ->  Long Methods, 2, 48
+Long Methods, 4, 49  ->  Long Methods, 3, 48
+Long Methods, 5, 49  ->  Long Methods, 4, 48
+Long Methods, 6, 49  ->  Long Methods, 5, 48
+Long Methods, 7, 49  ->  Long Methods, 6, 48
+Long Methods, 8, 49  ->  Long Methods, 7, 48
+Long Methods, 9, 49  ->  Long Methods, 8, 48
+Long Methods, 10, 49  ->  Long Methods, 9, 48
+Long Methods, 11, 49  ->  Long Methods, 10, 48
+Long Methods, 12, 49  ->  Long Methods, 11, 48
+Long Methods, 13, 49  ->  Long Methods, 12, 48
+Long Methods, 14, 49  ->  Long Methods, 13, 48
+Long Methods, 15, 49  ->  Long Methods, 14, 48
+Long Methods, -5, 50  ->  Long Methods, -6, 48
+Long Methods, -4, 50  ->  Long Methods, -5, 48
+Long Methods, -3, 50  ->  Long Methods, -4, 48
+Long Methods, -2, 50  ->  Long Methods, -3, 48
+Long Methods, -1, 50  ->  Long Methods, -2, 48
+Long Methods, 0, 50  ->  Long Methods, -1, 48
+Long Methods, 1, 50  ->  Long Methods, 0, 49
+Long Methods, 2, 50  ->  Long Methods, 1, 49
+Long Methods, 3, 50  ->  Long Methods, 2, 49
+Long Methods, 4, 50  ->  Long Methods, 3, 49
+Long Methods, 5, 50  ->  Long Methods, 4, 49
+Long Methods, 6, 50  ->  Long Methods, 5, 49
+Long Methods, 7, 50  ->  Long Methods, 6, 49
+Long Methods, 8, 50  ->  Long Methods, 7, 49
+Long Methods, 9, 50  ->  Long Methods, 8, 49
+Long Methods, 10, 50  ->  Long Methods, 9, 49
+Long Methods, 11, 50  ->  Long Methods, 10, 49
+Long Methods, 12, 50  ->  Long Methods, 11, 49
+Long Methods, 13, 50  ->  Long Methods, 12, 49
+Long Methods, 14, 50  ->  Long Methods, 13, 49
+Long Methods, 15, 50  ->  Long Methods, 14, 49
+
+-------- Ugly Variable Names --------
+Ugly Variable Names, -5, 0  ->  Ugly Variable Names, -6, 0
+Ugly Variable Names, -4, 0  ->  Ugly Variable Names, -5, 0
+Ugly Variable Names, -3, 0  ->  Ugly Variable Names, -4, 0
+Ugly Variable Names, -2, 0  ->  Ugly Variable Names, -3, 0
+Ugly Variable Names, -1, 0  ->  Ugly Variable Names, -2, 0
+Ugly Variable Names, 0, 0  ->  Ugly Variable Names, -1, 0
+Ugly Variable Names, 1, 0  ->  Ugly Variable Names, 0, 0
+Ugly Variable Names, 2, 0  ->  Ugly Variable Names, 1, 0
+Ugly Variable Names, 3, 0  ->  Ugly Variable Names, 2, 0
+Ugly Variable Names, 4, 0  ->  Ugly Variable Names, 3, 0
+Ugly Variable Names, 5, 0  ->  Ugly Variable Names, 4, 0
+Ugly Variable Names, 6, 0  ->  Ugly Variable Names, 5, 0
+Ugly Variable Names, 7, 0  ->  Ugly Variable Names, 6, 0
+Ugly Variable Names, 8, 0  ->  Ugly Variable Names, 7, 0
+Ugly Variable Names, 9, 0  ->  Ugly Variable Names, 8, 0
+Ugly Variable Names, 10, 0  ->  Ugly Variable Names, 9, 0
+Ugly Variable Names, 11, 0  ->  Ugly Variable Names, 10, 0
+Ugly Variable Names, 12, 0  ->  Ugly Variable Names, 11, 0
+Ugly Variable Names, 13, 0  ->  Ugly Variable Names, 12, 0
+Ugly Variable Names, 14, 0  ->  Ugly Variable Names, 13, 0
+Ugly Variable Names, 15, 0  ->  Ugly Variable Names, 14, 0
+Ugly Variable Names, -5, 1  ->  Ugly Variable Names, -6, 0
+Ugly Variable Names, -4, 1  ->  Ugly Variable Names, -5, 0
+Ugly Variable Names, -3, 1  ->  Ugly Variable Names, -4, 0
+Ugly Variable Names, -2, 1  ->  Ugly Variable Names, -3, 0
+Ugly Variable Names, -1, 1  ->  Ugly Variable Names, -2, 0
+Ugly Variable Names, 0, 1  ->  Ugly Variable Names, -1, 0
+Ugly Variable Names, 1, 1  ->  Ugly Variable Names, 0, 0
+Ugly Variable Names, 2, 1  ->  Ugly Variable Names, 1, 0
+Ugly Variable Names, 3, 1  ->  Ugly Variable Names, 2, 0
+Ugly Variable Names, 4, 1  ->  Ugly Variable Names, 3, 0
+Ugly Variable Names, 5, 1  ->  Ugly Variable Names, 4, 0
+Ugly Variable Names, 6, 1  ->  Ugly Variable Names, 5, 0
+Ugly Variable Names, 7, 1  ->  Ugly Variable Names, 6, 0
+Ugly Variable Names, 8, 1  ->  Ugly Variable Names, 7, 0
+Ugly Variable Names, 9, 1  ->  Ugly Variable Names, 8, 0
+Ugly Variable Names, 10, 1  ->  Ugly Variable Names, 9, 0
+Ugly Variable Names, 11, 1  ->  Ugly Variable Names, 10, 0
+Ugly Variable Names, 12, 1  ->  Ugly Variable Names, 11, 0
+Ugly Variable Names, 13, 1  ->  Ugly Variable Names, 12, 0
+Ugly Variable Names, 14, 1  ->  Ugly Variable Names, 13, 0
+Ugly Variable Names, 15, 1  ->  Ugly Variable Names, 14, 0
+Ugly Variable Names, -5, 2  ->  Ugly Variable Names, -6, 0
+Ugly Variable Names, -4, 2  ->  Ugly Variable Names, -5, 0
+Ugly Variable Names, -3, 2  ->  Ugly Variable Names, -4, 0
+Ugly Variable Names, -2, 2  ->  Ugly Variable Names, -3, 0
+Ugly Variable Names, -1, 2  ->  Ugly Variable Names, -2, 0
+Ugly Variable Names, 0, 2  ->  Ugly Variable Names, -1, 0
+Ugly Variable Names, 1, 2  ->  Ugly Variable Names, 0, 1
+Ugly Variable Names, 2, 2  ->  Ugly Variable Names, 1, 1
+Ugly Variable Names, 3, 2  ->  Ugly Variable Names, 2, 1
+Ugly Variable Names, 4, 2  ->  Ugly Variable Names, 3, 1
+Ugly Variable Names, 5, 2  ->  Ugly Variable Names, 4, 1
+Ugly Variable Names, 6, 2  ->  Ugly Variable Names, 5, 1
+Ugly Variable Names, 7, 2  ->  Ugly Variable Names, 6, 1
+Ugly Variable Names, 8, 2  ->  Ugly Variable Names, 7, 1
+Ugly Variable Names, 9, 2  ->  Ugly Variable Names, 8, 1
+Ugly Variable Names, 10, 2  ->  Ugly Variable Names, 9, 1
+Ugly Variable Names, 11, 2  ->  Ugly Variable Names, 10, 1
+Ugly Variable Names, 12, 2  ->  Ugly Variable Names, 11, 1
+Ugly Variable Names, 13, 2  ->  Ugly Variable Names, 12, 1
+Ugly Variable Names, 14, 2  ->  Ugly Variable Names, 13, 1
+Ugly Variable Names, 15, 2  ->  Ugly Variable Names, 14, 1
+Ugly Variable Names, -5, 49  ->  Ugly Variable Names, -6, 47
+Ugly Variable Names, -4, 49  ->  Ugly Variable Names, -5, 47
+Ugly Variable Names, -3, 49  ->  Ugly Variable Names, -4, 47
+Ugly Variable Names, -2, 49  ->  Ugly Variable Names, -3, 47
+Ugly Variable Names, -1, 49  ->  Ugly Variable Names, -2, 47
+Ugly Variable Names, 0, 49  ->  Ugly Variable Names, -1, 47
+Ugly Variable Names, 1, 49  ->  Ugly Variable Names, 0, 48
+Ugly Variable Names, 2, 49  ->  Ugly Variable Names, 1, 48
+Ugly Variable Names, 3, 49  ->  Ugly Variable Names, 2, 48
+Ugly Variable Names, 4, 49  ->  Ugly Variable Names, 3, 48
+Ugly Variable Names, 5, 49  ->  Ugly Variable Names, 4, 48
+Ugly Variable Names, 6, 49  ->  Ugly Variable Names, 5, 48
+Ugly Variable Names, 7, 49  ->  Ugly Variable Names, 6, 48
+Ugly Variable Names, 8, 49  ->  Ugly Variable Names, 7, 48
+Ugly Variable Names, 9, 49  ->  Ugly Variable Names, 8, 48
+Ugly Variable Names, 10, 49  ->  Ugly Variable Names, 9, 48
+Ugly Variable Names, 11, 49  ->  Ugly Variable Names, 10, 48
+Ugly Variable Names, 12, 49  ->  Ugly Variable Names, 11, 48
+Ugly Variable Names, 13, 49  ->  Ugly Variable Names, 12, 48
+Ugly Variable Names, 14, 49  ->  Ugly Variable Names, 13, 48
+Ugly Variable Names, 15, 49  ->  Ugly Variable Names, 14, 48
+Ugly Variable Names, -5, 50  ->  Ugly Variable Names, -6, 48
+Ugly Variable Names, -4, 50  ->  Ugly Variable Names, -5, 48
+Ugly Variable Names, -3, 50  ->  Ugly Variable Names, -4, 48
+Ugly Variable Names, -2, 50  ->  Ugly Variable Names, -3, 48
+Ugly Variable Names, -1, 50  ->  Ugly Variable Names, -2, 48
+Ugly Variable Names, 0, 50  ->  Ugly Variable Names, -1, 48
+Ugly Variable Names, 1, 50  ->  Ugly Variable Names, 0, 49
+Ugly Variable Names, 2, 50  ->  Ugly Variable Names, 1, 49
+Ugly Variable Names, 3, 50  ->  Ugly Variable Names, 2, 49
+Ugly Variable Names, 4, 50  ->  Ugly Variable Names, 3, 49
+Ugly Variable Names, 5, 50  ->  Ugly Variable Names, 4, 49
+Ugly Variable Names, 6, 50  ->  Ugly Variable Names, 5, 49
+Ugly Variable Names, 7, 50  ->  Ugly Variable Names, 6, 49
+Ugly Variable Names, 8, 50  ->  Ugly Variable Names, 7, 49
+Ugly Variable Names, 9, 50  ->  Ugly Variable Names, 8, 49
+Ugly Variable Names, 10, 50  ->  Ugly Variable Names, 9, 49
+Ugly Variable Names, 11, 50  ->  Ugly Variable Names, 10, 49
+Ugly Variable Names, 12, 50  ->  Ugly Variable Names, 11, 49
+Ugly Variable Names, 13, 50  ->  Ugly Variable Names, 12, 49
+Ugly Variable Names, 14, 50  ->  Ugly Variable Names, 13, 49
+Ugly Variable Names, 15, 50  ->  Ugly Variable Names, 14, 49
