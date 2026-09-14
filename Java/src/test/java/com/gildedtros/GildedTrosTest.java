@@ -106,7 +106,7 @@ class GildedTrosTest {
     @DisplayName("a backstage pass")
     class BackstagePasses {
 
-        @ParameterizedTest(name = "gains {1} quality at {0} days out")
+        @ParameterizedTest(name = "gains {1} quality and loses 1 day at {0} days out")
         @CsvSource({
                 "15, 1",
                 "11, 1",
@@ -117,7 +117,9 @@ class GildedTrosTest {
         })
         @DisplayName("increases in quality as the conference approaches")
         void increasesAsTheConferenceApproaches(int sellIn, int expectedIncrease) {
-            assertEquals(20 + expectedIncrease, afterOneDay(new Item(BACKSTAGE_PASS, sellIn, 20)).quality);
+            Item item = afterOneDay(new Item(BACKSTAGE_PASS, sellIn, 20));
+            assertEquals(20 + expectedIncrease, item.quality);
+            assertEquals(sellIn - 1, item.sellIn);
         }
 
         @ParameterizedTest(name = "is worthless at a sellIn of {0}")
@@ -165,11 +167,13 @@ class GildedTrosTest {
     @DisplayName("a smelly item")
     class SmellyItems {
 
-        @ParameterizedTest(name = "{0} loses 2 quality a day before the sell-by date")
+        @ParameterizedTest(name = "{0} loses 2 quality and 1 day before the sell-by date")
         @ValueSource(strings = {DUPLICATE_CODE, LONG_METHODS, UGLY_VARIABLE_NAMES})
         @DisplayName("degrades twice as fast as a normal item")
         void degradesTwiceAsFastAsNormalItems(String name) {
-            assertEquals(8, afterOneDay(new Item(name, 5, 10)).quality);
+            Item item = afterOneDay(new Item(name, 5, 10));
+            assertEquals(8, item.quality);
+            assertEquals(4, item.sellIn);
         }
 
         @ParameterizedTest(name = "{0} still loses only 2 quality on the last day before the sell-by date")
