@@ -13,7 +13,6 @@ public class TexttestFixture {
                 new Item("Backstage passes for Re:Factor", 15, 20),
                 new Item("Backstage passes for Re:Factor", 10, 49),
                 new Item("Backstage passes for HAXX", 5, 49),
-                // these smelly items do not work properly yet
                 new Item("Duplicate Code", 3, 6),
                 new Item("Long Methods", 3, 6),
                 new Item("Ugly Variable Names", 3, 6) };
