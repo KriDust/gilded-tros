@@ -5,7 +5,7 @@ import com.gildedtros.Item;
 class GoodWineUpdater extends AbstractItemUpdater {
 
     @Override
-    protected int qualityDelta(Item item) {
+    protected int dailyQualityChange(Item item) {
         return isPastSellByDate(item) ? 2 : 1;
     }
 }

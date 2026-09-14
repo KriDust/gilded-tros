@@ -5,7 +5,7 @@ import com.gildedtros.Item;
 class SmellyItemUpdater extends AbstractItemUpdater {
 
     @Override
-    protected int qualityDelta(Item item) {
+    protected int dailyQualityChange(Item item) {
         return isPastSellByDate(item) ? -4 : -2;
     }
 }

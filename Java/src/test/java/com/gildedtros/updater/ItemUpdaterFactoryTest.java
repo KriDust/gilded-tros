@@ -24,8 +24,8 @@ class ItemUpdaterFactoryTest {
             "Long Methods,SmellyItemUpdater",
             "Ugly Variable Names,SmellyItemUpdater"
     })
-    void dispatchesOnItemName(String name, String expectedUpdater) {
-        assertEquals(expectedUpdater, updaterFor(name));
+    void dispatchesOnItemName(String itemName, String expectedUpdaterName) {
+        assertEquals(expectedUpdaterName, updaterNameFor(itemName));
     }
 
     @ParameterizedTest(name = "\"{0}\" is recognised as a backstage pass")
@@ -35,11 +35,11 @@ class ItemUpdaterFactoryTest {
             "Backstage passes for a conference that does not exist yet"
     })
     @DisplayName("backstage passes are matched as a category, not by exact name")
-    void matchesAnyBackstagePass(String name) {
-        assertEquals("BackstagePassUpdater", updaterFor(name));
+    void matchesAnyBackstagePass(String itemName) {
+        assertEquals("BackstagePassUpdater", updaterNameFor(itemName));
     }
 
-    private static String updaterFor(String name) {
-        return ItemUpdaterFactory.forItem(new Item(name, 0, 0)).getClass().getSimpleName();
+    private static String updaterNameFor(String itemName) {
+        return ItemUpdaterFactory.forItem(new Item(itemName, 0, 0)).getClass().getSimpleName();
     }
 }

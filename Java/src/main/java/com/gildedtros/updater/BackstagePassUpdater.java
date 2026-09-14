@@ -4,20 +4,24 @@ import com.gildedtros.Item;
 
 class BackstagePassUpdater extends AbstractItemUpdater {
 
-    private static final int TRIPLE_INCREASE_THRESHOLD = 5;
-    private static final int DOUBLE_INCREASE_THRESHOLD = 10;
+    private static final int DAYS_LEFT_FOR_TRIPLE_INCREASE = 5;
+    private static final int DAYS_LEFT_FOR_DOUBLE_INCREASE = 10;
 
     @Override
-    protected int qualityDelta(Item item) {
+    protected int dailyQualityChange(Item item) {
         if (isPastSellByDate(item)) {
-            return -item.quality;
+            return loseAllQuality(item);
         }
-        if (item.sellIn <= TRIPLE_INCREASE_THRESHOLD) {
+        if (item.sellIn <= DAYS_LEFT_FOR_TRIPLE_INCREASE) {
             return 3;
         }
-        if (item.sellIn <= DOUBLE_INCREASE_THRESHOLD) {
+        if (item.sellIn <= DAYS_LEFT_FOR_DOUBLE_INCREASE) {
             return 2;
         }
         return 1;
+    }
+
+    private static int loseAllQuality(Item item) {
+        return -item.quality;
     }
 }

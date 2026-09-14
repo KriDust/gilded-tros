@@ -11,17 +11,17 @@ abstract class AbstractItemUpdater implements ItemUpdater {
     public final void update(Item item) {
         // The quality change is based on the sell-by date at the start of the day,
         // which is why sellIn is only advanced afterwards.
-        item.quality = clamp(item.quality + qualityDelta(item));
+        item.quality = enforceQualityBounds(item.quality + dailyQualityChange(item));
         item.sellIn--;
     }
 
-    protected abstract int qualityDelta(Item item);
+    protected abstract int dailyQualityChange(Item item);
 
     protected final boolean isPastSellByDate(Item item) {
         return item.sellIn <= 0;
     }
 
-    private static int clamp(int quality) {
+    private static int enforceQualityBounds(int quality) {
         return Math.min(MAX_QUALITY, Math.max(MIN_QUALITY, quality));
     }
 }
